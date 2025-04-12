@@ -5,7 +5,7 @@ use std::{collections::HashMap, str::FromStr};
 
 use crate::route_plan_with_metadata::RoutePlanWithMetadata;
 use crate::serde_helpers::field_as_string;
-use anyhow::{anyhow, Error};
+use anyhow::{Error, anyhow};
 use rust_decimal::Decimal;
 use serde::{Deserialize, Serialize};
 use solana_sdk::pubkey::Pubkey;

@@ -1,8 +1,8 @@
 use std::env;
 
 use jupiter_swap_api_client::{
-    quote::QuoteRequest, swap::SwapRequest, transaction_config::TransactionConfig,
-    JupiterSwapApiClient,
+    JupiterSwapApiClient, quote::QuoteRequest, swap::SwapRequest,
+    transaction_config::TransactionConfig,
 };
 use solana_client::nonblocking::rpc_client::RpcClient;
 use solana_sdk::{pubkey, transaction::VersionedTransaction};
